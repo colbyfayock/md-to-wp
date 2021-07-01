@@ -10,9 +10,9 @@ const POSTS_DIRECTORY = process.env.POSTS_DIRECTORY;
 const PREFIX = '[MD to WP]';
 
 const wp = new WPAPI({
-  endpoint: 'https://colbyfayockcom.wpengine.com/wp-json',
-  username: process.env.WPAPI_APPLICATION_USERNAME,
-  password: process.env.WPAPI_APPLICATION_PASSWORD
+  endpoint: process.env.WP_JSON_ENDPOINT,
+  username: process.env.WP_USERNAME,
+  password: process.env.WP_APPLICATION_PASSWORD
 });
 
 async function run() {
