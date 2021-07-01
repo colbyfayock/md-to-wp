@@ -1,5 +1,7 @@
 # Markdown to WordPress
 
+An easy way to get a markdown blog to WordPress!
+
 ## Getting Started
 * Install dependencies
 ```
