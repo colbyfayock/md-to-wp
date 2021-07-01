@@ -9,8 +9,9 @@ npm install
 ```
 * Create a new `.env` file with the following:
 ```
-WPAPI_APPLICATION_USERNAME="[WordPress Username]"
-WPAPI_APPLICATION_PASSWORD="[WordPress Application Password]"
+WP_JSON_ENDPOINT="https://wordpresswebsite.com/wp-json"
+WP_USERNAME="[WordPress Username]"
+WP_APPLICATION_PASSWORD="[WordPress Application Password]"
 POSTS_DIRECTORY="[Location of markdown post files - Ex: /Users/myname/posts ]"
 ```
 * Upload posts
